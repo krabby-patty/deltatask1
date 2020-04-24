@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/correctColor"
+    tools:ignore="MissingDefaultResource">
+    <TextView
+        android:id="@+id/hiskore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW HIGHSCORE!"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/FINDFAC"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find the factor of       "
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/azo"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/prnt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_alignRight="@+id/FINDFAC"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn42"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        android:layout_toLeftOf="@+id/btn42"
+        android:layout_marginRight="40dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn52"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/btn42"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:text="CORRECT ANSWER!"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:text="Next question"
+        android:background="@drawable/button"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        />
+
+    <TextView
+        android:id="@+id/streakprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+
+        android:background="@drawable/button"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Main menu"
+        />
+
+</RelativeLayout>

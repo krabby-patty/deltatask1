@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="@drawable/qnpage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACTORIZER"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/azo"
+        android:textSize="30sp"
+        android:textColor="@color/yellow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:text="version 6.0.2x"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:text="Good in math ?\nwell this game is for you !\n
+find the factors of numbers\nas quick as you can"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/azo"
+        android:text="designed and developed\nby\nkailash"
+        />
+
+    <Button
+        android:id="@+id/HOME"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button"
+        android:text="BACK"
+        android:textSize="25sp"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/blue"
+        />
+
+</RelativeLayout>

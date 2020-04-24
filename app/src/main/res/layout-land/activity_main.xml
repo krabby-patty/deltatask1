@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wwwland">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:text="PLAY"
+        android:textSize="22sp"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+
+        />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:text="ABOUT"
+        android:textSize="22sp"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+
+        />
+
+    <TextView
+        android:id="@+id/CVS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current win streak:    "
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="275dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/str"
+        android:textSize="20sp"
+        android:text="0"
+        android:layout_marginTop="275dp"
+        android:layout_alignRight="@+id/CVS"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/HIGH_SCORE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High score:    "
+        android:fontFamily="@font/azo"
+        android:textColor="@color/yellow"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/his"
+        android:textSize="20sp"
+        android:text="0"
+        android:layout_marginTop="300dp"
+        android:layout_alignRight="@+id/HIGH_SCORE"
+        android:fontFamily="@font/azo"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
